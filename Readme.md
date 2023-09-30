@@ -1,6 +1,6 @@
 # Decision Transformer Example (Atari Pong)
 
-This notebook shows you the implementation of Decision Transformer, but is made runnable in the mainstream computing with small footprint - such as, in a signle GPU of Tesla T4 or consumer GPU (NVIDIA RTX).
+This notebook shows you the implementation of Decision Transformer, but is made runnable in the mainstream computing with small footprint - such as, in a signle GPU of Tesla T4 or consumer GPU (NVIDIA RTX) - so that you can soon run and check this code.
 
 Like [official example](https://github.com/kzl/decision-transformer), this uses introductory Atari Pong game environment, and it's also trained on large dataset in [here](https://research.google/resources/datasets/dqn-replay/). (We only use a part of this dataset.)
 
