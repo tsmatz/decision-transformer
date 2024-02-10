@@ -1,9 +1,8 @@
 # Decision Transformer Example (Atari Pong)
 
-This example shows you Decision Transformer implementation with step-by-step explanation in notebook.<br>
-This example is also made runnable in the mainstream computing with small footprint - such as, in a signle GPU of Tesla T4 or consumer GPU (NVIDIA RTX) - so that you can soon run and check this code.
+This example shows you Decision Transformer implementation (and step-by-step explanation in notebook) with introductory Atari Pong game environment.<br>
 
-Like [official example](https://github.com/kzl/decision-transformer), this uses introductory Atari Pong game environment, and it's also trained on large dataset in [here](https://research.google/resources/datasets/dqn-replay/). (We only use a part of this dataset.)
+Unlike [official example](https://github.com/kzl/decision-transformer), this example is runnable in the mainstream computes with small footprint - such as, a signle GPU of Tesla T4 or consumer GPUs (NVIDIA RTX) - for you to try this code easily.
 
 ## Prerequisites
 
@@ -27,8 +26,8 @@ sudo apt-get install -y python3-pip
 sudo -H pip3 install --upgrade pip
 ```
 
-In this example, we need ```gsutil``` to download dataset.<br>
-Refer [official document](https://cloud.google.com/storage/docs/gsutil_install) and install ```gsutil```.
+This example uses a part of large dataset, [here](https://research.google/resources/datasets/dqn-replay/), for training.<br>
+To download this dataset, we need to install ```gsutil```. (Refer [official document](https://cloud.google.com/storage/docs/gsutil_install) for details about installation of ```gsutil```.)
 
 ```
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
@@ -42,8 +41,8 @@ Install required packages to run this example.
 pip3 install torch numpy matplotlib opencv-python atari_py
 ```
 
-In this example, we use an environment in ```atari_py```.<br>
-Download and import ROMs for running Atari environment.
+In this example, we use an Atari environment in ```atari_py``` package.<br>
+Download and import ROMs for running this environment.
 
 ```
 sudo apt-get install unrar
@@ -58,7 +57,7 @@ Install jupyter to run notebook.
 pip3 install jupyter
 ```
 
-> Note : We need to download large dataset from Google, but we only use a part of this dataset.<br>
+> Note : In this example, we need to download large dataset from Google, but we only use a part of this dataset.<br>
 > Please remove dataset which is not used in this example, or expand your disk not to exceed disk spaces.
 
 ## Run
