@@ -58,7 +58,7 @@ pip3 install jupyter
 ```
 
 > Note : In this example, we need to download large dataset from Google, but we only use a part of this dataset.<br>
-> Please remove dataset which is not used in this example, or expand your disk not to exceed disk spaces.
+> Please remove dataset which is not used in this example, or [expand your disk](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/expand-disks) not to exceed disk spaces.
 
 ## Run
 
