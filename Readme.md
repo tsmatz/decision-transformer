@@ -1,7 +1,9 @@
 # Decision Transformer Example (Atari Pong)
 
-This example shows you Decision Transformer implementation (and step-by-step explanation in notebook) with introductory Atari Pong game environment.<br>
-Unlike [official example](https://github.com/kzl/decision-transformer), this example **is runnable in consumer devices** (mainstream computers with small footprint) - such as, a signle GPU of Tesla T4, NVIDIA RTX, etc - for you to try this code easily.
+This example shows you Decision Transformer implementation (and step-by-step explanation in notebook) with introductory Atari Pong game environment.
+
+Unlike [official example](https://github.com/kzl/decision-transformer), this example **is runnable in consumer devices** (mainstream computers with small footprint) - such as, a signle GPU of Tesla T4, NVIDIA RTX, etc - for you to try this code easily.<br>
+The notebook also shows you step-by-step explanation behind code.
 
 ## Introduction to Decision Transformer
 
