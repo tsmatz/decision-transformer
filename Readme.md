@@ -19,7 +19,7 @@ In Decision Transformer architecture, the sequence in Transformers consists of m
 > If the sequence is derived by an expert agent, the first token of rtg will then be high score.<br>
 > ![Return-to-go reward](images/rtg.png)
 
-By the autoregressive analysis in Transformers, the next token - especially, the next action - will then be predicted (generated) with causal preceeding tokens.
+By the autoregressive analysis in Transformers, the next token - especially, the next action - will then be predicted (generated) with causal proceeding tokens.
 
 ![decision transformer](images/dt.png)
 
